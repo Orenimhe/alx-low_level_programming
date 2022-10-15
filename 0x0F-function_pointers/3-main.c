@@ -1,4 +1,4 @@
-include "3-calc.h"
+#include "3-calc.h"
 
 /**
  * main - program that perfroms simple operations
@@ -9,7 +9,7 @@ include "3-calc.h"
  */
 int main(int argc, char *argv[])
 {
-int arg1, arg2, result;
+	int arg1, arg2, result;
 	char o;
 	int (*func)(int, int);
 
